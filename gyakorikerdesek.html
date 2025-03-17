@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuponmánia</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6bb84604c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="./img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Kuponmánia</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Kezdőlap <span class="sr-only">Kuponmánia</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rolunk.html">Rólunk</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Egyéb
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="gyakorikerdesek.html"
+                >Gyakori kérdések</a
+              >
+              <a class="dropdown-item" href="megbizhatosag.html"
+                >Megbízhatóság</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="kapcsolat.html">Kapcsolat</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Kuponmánia</h1>
+    <div class="container">
+      <div class="row animated pulse infinite slower">
+        <div class="col-12 col-md-3 első">
+          Nálunk mindig kedvező ajánlatokra bukkanhatsz!
+        </div>
+        <div class="col-12 col-md-3 első">
+          Csupán két kattintás és már meg is jelent a kódod!
+        </div>
+        <div class="col-12 col-md-3 első">
+          Kuponok a leghíresebb mai divatmárkák legjavához!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 masodik">
+          <h3 style="margin-bottom: 20px;">
+            <i class="fas fa-question animated bounce infinite slower"></i>
+            &nbsp; Gyakori kérdések:
+          </h3>
+          <div id="accordion">
+            <div class="card" style="background-color: #a64942;">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                    style="color: white;"
+                  >
+                    <i class="fas fa-circle"></i> &nbsp; Mióta foglalkozunk
+                    kuponok forgalmazásával?
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Cégünk már lassan 10 éve foglalkozik ezzel. 2011 április 4-én
+                  kezdtük meg működésünket és azóta töretlenül próbáljuk
+                  kielégíteni felhasználóink igényeit.
+                </div>
+              </div>
+            </div>
+            <div class="card" style="background-color: #a64942;">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style="color: white;"
+                  >
+                    <i class="fas fa-circle"></i> &nbsp; Milyen márkákhoz
+                    kaphatok kupont?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Tommy Hilfiger, Calvin Klein, Adidas, Nike, de a választékot
+                  próbáljuk hétről-hétre bővíteni.
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="background-color: #a64942;">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style="color: white;"
+                  >
+                    <i class="fas fa-circle"></i> &nbsp; Melyik webshopban
+                    válthatom be a már megszerzett kuponjaimat?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Bármelyikben! A kupont bármely webshopban be lehet váltani a
+                  fent említett 4 márkánál.
+                </div>
+              </div>
+            </div>
+            <div class="card" style="background-color: #a64942;">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                    style="color: white;"
+                  >
+                    <i class="fas fa-circle"></i> &nbsp; Szükséges-e bármiféle
+                    regisztráció, ahhoz hogy megkapjam a kuponokat?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Nem, mi nem bonyolódunk ilyenekbe. A kezdőlapon a keresett
+                  márká melletti <i>kód mutatása</i> gombra kattintva megjelenik
+                  a felhasználásra szánt kód.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
